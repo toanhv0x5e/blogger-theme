@@ -1,0 +1,25 @@
+/*####TOC Plugin V2.0 by MyBloggerTricks####*/
+.mbtTOC2{border:5px solid #f7f0b8;box-shadow:1px 1px 0 #EDE396;background-color:#FFFFE0;color:#707037;line-height:1.4em;margin:30px auto;padding:20px 30px 20px 10px; font-family:Oswald, arial;display: block;width: 70%;}.mbtTOC2 button{background:#FFFFE0; font-family:oswald, arial; font-size:22px;position:relative; outline:none;border:none; color:#707037;padding:0 0 0 15px;}.mbtTOC2 button a {color:#0080ff; padding:0px 2px;cursor:pointer;} 
+.mbtTOC2 button a:hover{ text-decoration:underline; } 
+.mbtTOC2 button span {font-size:15px; margin:0px 10px; }
+
+.mbtTOC2 li{margin:10px 0;  } 
+.mbtTOC2 li a {color:#0080ff; text-decoration:none; font-size:18px; text-transform:capitalize;} 
+.mbtTOC2 li a:hover {text-decoration: underline;}.mbtTOC2 li li {margin:4px 0px;} 
+.mbtTOC2 li li a{ color:#289728; font-size:15px;}
+
+.mbtTOC2 ol{counter-reset:section1;list-style:none}
+.mbtTOC2 ol ol{counter-reset:section2}
+.mbtTOC2 ol ol ol{counter-reset:section3}
+.mbtTOC2 ol ol ol ol{counter-reset:section4}
+.mbtTOC2 ol ol ol ol ol{counter-reset:section5}
+.mbtTOC2 li:before{content:counter(section1);counter-increment:section1;position:relative;padding:0 8px 0 0;font-size:18px}
+.mbtTOC2 li li:before{content:counter(section1) &quot;.&quot; counter(section2);counter-increment:section2;font-size:14px}
+.mbtTOC2 li li li:before{content:counter(section1) &quot;.&quot;counter(section2) &quot;.&quot; counter(section3);counter-increment:section3}
+.mbtTOC2 li li li li:before{content:counter(section1) &quot;.&quot;counter(section2) &quot;.&quot;counter(section3) &quot;.&quot; counter(section4);counter-increment:section4}
+.mbtTOC2 li li li li li:before{content:counter(section1) &quot;.&quot;counter(section2) &quot;.&quot;counter(section3) &quot;.&quot; counter(section4)&quot;.&quot; counter(section5);counter-increment:section5}
+/* 
+.point2 {list-style-type:lower-alpha} 
+.point3 {list-style-type:lower-roman} 
+.point4 {list-style-type:disc} 
+*/
