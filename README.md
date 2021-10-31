@@ -5,6 +5,6 @@ Add these lines to `<head>` tag
 
 ```html
 <head>
-  <script src='https://raw.githubusercontent.com/toanhv0x5e/blogger-theme/main/source/customize.js' type='text/javascript'/>
-  <link href='https://raw.githubusercontent.com/toanhv0x5e/blogger-theme/main/source/customize.css' rel='stylesheet'/>
+  <script src='https://cdn.jsdelivr.net/gh/toanhv0x5e/blogger-theme@main/assets/js/customize.js' type='text/javascript'/>
+  <link href='https://cdn.jsdelivr.net/gh/toanhv0x5e/blogger-theme@main/assets/css/customize.css' rel='stylesheet'/>
 ```
